@@ -1,0 +1,211 @@
+body { /* met le fond d'ecran */
+  background-image: url(../public/backgrounds/b0.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+/*Page d'entrée */
+.premier-page {/* cadre blanc pour tou recentrer dans la 1er page */
+  margin-top: 350px;
+  background-size: initial ;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-left: 750px;
+  margin-right: 750px;}
+.buttonLog{ 
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  border-radius: 0;
+}
+.buttonLog:hover{/* meme boutton mais quand on met la souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer; /* Affiche un curseur de type main au survol */
+  border: 1px solid rgb(121, 121, 121);}
+
+.buttonInsc{/*boutton 1er page signUp*/
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  border-radius: 0; /* Coins carrés sans arrondis */
+}
+.buttonInsc:hover{/* meme boutton mais quand on met la souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer; /* Affiche un curseur de type main au survol */
+  border: 1px solid rgb(121, 121, 121);}
+
+.listPlayersButton{/* 1er page boutton Liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); 
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0; /* Coins carrés sans arrondis */
+}
+.listPlayersButton:hover{/* 1er page boutton Liste des joueurs avec souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121)
+}
+/*page de connexion */
+
+.Connexion {/* cadre blanc pour tou recentrer dans la 1er page */
+  margin-top: 300px;
+  background-size: initial ;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-left: 750px;
+  margin-right: 750px;}
+
+.conSeConnecter{/*boutton de retour dans la page de la liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+}
+.conSeConnecter:hover{/* pareil qu au desseus quand souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121);}
+
+h3{
+  color: hsl(0, 91%, 38%);
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.conRetour{/*boutton de retour dans la page de la liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+}
+.conRetour:hover{/* pareil qu au desseus quand souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121);}
+
+ /*page de Liste des joueurs */ 
+.listPlayers{
+  margin-top: 300px;
+  background-size: initial ;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  background-color: aliceblue;
+  width:400px;
+}
+
+.scrollable-list{
+  display:block;
+	height:10em; /* 5 times the equivalent of a text "size". */
+	overflow-y:scroll;
+  border:1px solid black;}
+
+
+td {
+  text-align: center;
+}
+.playerRetour{/*boutton de retour dans la page de la liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+}
+.playerRetour:hover{/* pareil qu au desseus quand souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121);}
+/* Partie ou tu t'inscris */
+.inscription {/* cadre blanc pour tou recentrer dans la 1er page */
+  margin-top: 300px;
+  background-size: initial ;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-left: 750px;
+  margin-right: 750px;}
+
+.sinscrire{/*boutton de retour dans la page de la liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+}
+.sinscrire:hover{/* pareil qu au desseus quand souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121);}
+
+.inscRetour{/*boutton de retour dans la page de la liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); /* Bordure de 1 pixel solide avec la couleur spécifiée */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+}
+
+.inscRetour:hover{/* pareil qu au desseus quand souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121);
+}
+
+.QP {
+  width:500px;
+  height: 300px;
+  text-align:left;
+  
+}
+.chat-container{
+  text-align: right;
+}  
+.chat{
+  text-align: right;
+  top:80%;
+  
+}
+
+.abandonButton{/* 1er page boutton Liste des joueurs */
+  border: 1px solid hwb(210 74% 25%); 
+  border-radius: 5px; /* Coins arrondis */
+  background-color: hwb(210 74% 25%); /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  margin-left: 80%;
+  border-radius: 0; /* Coins carrés sans arrondis */
+  
+}
+.abandonButton:hover{/* 1er page boutton Liste des joueurs avec souris dessus */
+  background-color: rgb(121, 121, 121);
+  cursor: pointer;
+  border: 1px solid rgb(121, 121, 121);
+  }
